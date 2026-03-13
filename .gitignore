@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables (IMPORTANT - contains secrets)
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/dist/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug/Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.local
+.cache/
